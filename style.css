@@ -238,23 +238,23 @@ body {
 #candle {
   position: absolute;
   top: 30%;
-  left: 48%;
+  left: 52%;
   height: 10%;
   width: 3%;
   background: var(--box-border);
   z-index: 3;
-  box-shadow: 20px 5px var(--box-border), -20px 5px var(--box-border)
+  box-shadow: -15px 0 var(--box-border), 20px 5px var(--box-border), -35px 5px var(--box-border)
 }
 #flame {
   position: absolute;
   top: 27%;
-  left: 48%;
+  left: 52%;
   height: 3%;
   width: 3%;
   background: yellow;
   z-index: 3;
   border-radius: 0 50% 50% 50%;
-  box-shadow: 20px 5px yellow, -20px 5px yellow;
+  box-shadow: -15px 0 yellow, 20px 5px yellow, -35px 5px yellow;
   animation: flicker ease-in-out 1s infinite;
   transition: opacity ease-in-out 750ms;
 }
